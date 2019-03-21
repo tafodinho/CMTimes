@@ -10,11 +10,16 @@ body {
 body,
 ul,
 li,
-p {
+p,
+h4, h5, hr {
     margin: 0;
     padding: 0;
 }
-
+.section-cm,
+.latest,
+.latest-fundings {
+     margin: 0 auto;
+ }
 .grid:after {
     content: "";
     display: table;
