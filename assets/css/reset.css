@@ -15,9 +15,17 @@ h4, h5, hr {
     margin: 0;
     padding: 0;
 }
+a {
+    text-decoration: none;
+    color: black
+}
+ul {
+    list-style-type: none;
+}
 .section-cm,
 .latest,
-.latest-fundings {
+.latest-fundings,
+.post-section {
      margin: 0 auto;
  }
 .grid:after {
