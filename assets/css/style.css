@@ -324,13 +324,24 @@
     color: #55555f;
 }
 .footer-1{
-    background: #131313;
+    
+    display: table;
+    margin: 0 auto;
 }
 .footer-icon{
     color: #ffffff
 }
-.footer-1 .footer-icon-1 {
-    background: url('../images/facebook.svg');
-    width: 6px;
-    height: 6px;
+.list{
+    display: inline;
+    margin: 0 .5%;
+}
+.footer-container{
+    background: #131313;
+}
+.footer-text-list{
+    color: #aaa;
+    text-align: center;
+}
+.footer-icon-list{
+    text-align: center;
 }
