@@ -289,23 +289,24 @@
 }
 
 .latest-deal .latest-deal-image-1 {
-    height: 65%;
-    width: 100%;
     background: pink;
 }
-.latest-deal .latest-deal-image-2 {
-    height: 65%;
+.square {
     width: 100%;
+  }
+  
+  .square:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+  }
+.latest-deal .latest-deal-image-2 {
     background: #40a8d0;
 }
 .latest-deal .latest-deal-image-3 {
-    height: 65%;
-    width: 100%;
     background: #1e9bfc;
 }
 .latest-deal .latest-deal-image-4 {
-    height: 65%;
-    width: 100%;
     background: #cde9da;
 }
 .latest-deal .latest-deal-title {
