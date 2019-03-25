@@ -1,6 +1,6 @@
-# Wireframe
+#  CMTimes
 
-A wireframe for smashing magasine homepage
+a website to display acticles
 
 ## Built With
 
