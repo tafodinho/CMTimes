@@ -1,3 +1,35 @@
+@media screen and (max-width: 480px) {
+    [class*='col-'] {
+        float: none;
+        width: 100% !important;
+        display: block !important;
+    }
+    [class*='article-'] {
+        display: block !important;
+        float: none;
+        width: 100% !important;
+        height: 50% !important;
+    }
+    .story {
+        height: 100% !important;
+    }
+    .story .story-image {
+        height: 75% !important;
+    }
+    .second-nav {
+        display: none !important;
+    }
+    .third-nav {
+        float: none !important;
+    }
+    .section-cm {
+        margin-bottom: 10vh !important;
+    }
+    .latest-articles .latest-article {
+        height: 45vh;
+    }
+}
+
 .col-1-1 {
     width: 100%;
 }
@@ -17,6 +49,9 @@
     background: black;
     color: white;
     padding: 5px 0 5px 0;
+}
+.ad-cm p {
+    font-size: 12.5px;
 }
 .nav-cm li {
     display: inline;
@@ -238,7 +273,57 @@
     border-bottom: solid 1px #eeeeee;
     font-size: 13px;
     padding: 10px 0 10px 0;
+    position: relative;
 }
 .post-section .post {
     padding: 12px
+}
+.latest-deal {
+    padding: 12px;
+}
+.latest-deals-section {
+    max-width: 1192px;
+}
+.latest-deals .latest-deal {
+    height: 60vh;
+}
+
+.latest-deal .latest-deal-image-1 {
+    height: 65%;
+    width: 100%;
+    background: pink;
+}
+.latest-deal .latest-deal-image-2 {
+    height: 65%;
+    width: 100%;
+    background: #40a8d0;
+}
+.latest-deal .latest-deal-image-3 {
+    height: 65%;
+    width: 100%;
+    background: #1e9bfc;
+}
+.latest-deal .latest-deal-image-4 {
+    height: 65%;
+    width: 100%;
+    background: #cde9da;
+}
+.latest-deal .latest-deal-title {
+    padding: 7px 0 7px 0;
+
+}
+.latest-deal .old-price {
+    text-decoration: line-through;
+    font-size: 14px;
+    padding: 0 7px 0 0;
+    color: #55555f;
+}
+.latest-deal .new-price {
+    font-weight: 600;
+    color: #55555f;
+}
+.footer-1 .footer-icon-1 {
+    background: url('../images/facebook.svg');
+    width: 6px;
+    height: 6px;
 }

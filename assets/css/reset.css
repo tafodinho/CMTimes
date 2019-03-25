@@ -25,7 +25,8 @@ ul {
 .section-cm,
 .latest,
 .latest-fundings,
-.post-section {
+.post-section,
+.latest-deals-section {
      margin: 0 auto;
  }
 .grid:after {
