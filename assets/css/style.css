@@ -323,6 +323,12 @@
     font-weight: 600;
     color: #55555f;
 }
+.footer-1{
+    background: #131313;
+}
+.footer-icon{
+    color: #ffffff
+}
 .footer-1 .footer-icon-1 {
     background: url('../images/facebook.svg');
     width: 6px;
