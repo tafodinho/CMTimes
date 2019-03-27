@@ -14,7 +14,7 @@
         height: 100% !important;
     }
     .story .story-image {
-        height: 75% !important;
+        /* height: 75% !important; */
     }
     .second-nav {
         display: none !important;
@@ -35,7 +35,7 @@
     .story-image {
         width: 20% !important;
         height: 0 !important;
-        padding-top: 20%;
+        padding-top: 20% !important;
         float: left;
     }
     .latest-article .info {
@@ -69,7 +69,7 @@
     .story-image {
         width: 30% !important;
         height: 0 !important;
-        padding-top: 30%;
+        padding-top: 30% !important;
         float: left;
     }
     .latest-article .info {
