@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Jura|Open+Sans');
+
+[class*='col-'] {
+    float: left;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body,
+ul,
+li,
+p,
+h4, h5, hr {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: black
+}
+ul {
+    list-style-type: none;
+}
+.section-cm,
+.latest,
+.latest-fundings,
+.post-section,
+.latest-deals-section {
+     margin: 0 auto;
+ }
+.grid:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
