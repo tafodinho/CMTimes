@@ -13,4 +13,4 @@ CSS & HTML
 
 
 ## Site
-* url - https://raw.githack.com/tafodinho/CMTimes/tree/dev
+* url - https://rawcdn.githack.com/tafodinho/CMTimes/637b21436dd970ba310bec79700f6f54afa59aaf/index.html
